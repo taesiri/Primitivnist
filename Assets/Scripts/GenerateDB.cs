@@ -17,6 +17,8 @@ public class GenerateDB : MonoBehaviour
     private Plane[] planes;
     public int remainingImages = 100;
 
+    public string OutputPath = "C:/Workspace/Primitivnist/";
+
     public ObjectParameters BuildScene()
     {
         var pos = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1.1f), Random.Range(-1f, 2.5f));
@@ -100,8 +102,8 @@ public class GenerateDB : MonoBehaviour
 
                 modelParams.imageName = string.Format("prim-{0}.png", Counter);
 
-                System.IO.File.WriteAllBytes(string.Format("{0}/demo/{1}",
-                                 Application.dataPath, modelParams.imageName), bytes);
+                System.IO.File.WriteAllBytes(string.Format("{0}/{1}",
+                                 OutputPath, modelParams.imageName), bytes);
 
                 
 
@@ -121,8 +123,8 @@ public class GenerateDB : MonoBehaviour
             db += item.ToString();
             db += "\n";
         }
-        System.IO.File.WriteAllText(string.Format("{0}/demo/db.csv",
-                         Application.dataPath), db);
+        System.IO.File.WriteAllText(string.Format("{0}/db.csv",
+                         OutputPath), db);
 
 
         Debug.Log(string.Format("DONE!!"));
