@@ -1,6 +1,6 @@
 # Primitivnist
 
-A simple toy dataset generator for my experiments on various Ideas and papers, Including Hinton's Capsule networks. You can download `.npy` file of 200000 generated images from my [here](https://drive.google.com/file/d/1Em-WGEO8u2VgXhy1g5hhQuK2bytooDGK/view?usp=sharing)
+A simple toy dataset generator for my experiments on various Ideas and papers, Including Hinton's Capsule networks. You can download `.npy` file of 200,000 generated images from [here](https://drive.google.com/file/d/1Em-WGEO8u2VgXhy1g5hhQuK2bytooDGK/view?usp=sharing)
 
 
 # Dataset Privew
