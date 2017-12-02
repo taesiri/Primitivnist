@@ -1,6 +1,6 @@
 # Primitivnist
 
-A Toy dataset for my own expriments on Hinton's Capsule networks.
+A simple toy dataset generator for my experiments on various Ideas and papers, Including Hinton's Capsule networks. You can download `.npy` file of 200000 generated images from my [here](https://drive.google.com/file/d/1Em-WGEO8u2VgXhy1g5hhQuK2bytooDGK/view?usp=sharing)
 
 
 # Dataset Privew
@@ -21,3 +21,9 @@ A Toy dataset for my own expriments on Hinton's Capsule networks.
 | <img src="images/wedge.png"  style="width: 64px;"/>               | Wedge       |
 | <img src="images/ico-sphere.png"  style="width: 64px;"/>          | ICO-Sphere  |
 | <img src="images/cone.png"  style="width: 64px;"/>                | Cone        |
+
+
+## TODO
+
+Integrate with [Google's Poly API](https://developers.google.com/poly/develop/unity) to increase the number of shapes and objects.
+
